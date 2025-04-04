@@ -3,6 +3,8 @@
 #include<queue>
 using namespace std;
 
+// https://www.naukri.com/code360/problems/reversing-a-queue_982934
+
 class QueueReverse{
     public:
         int reverse(queue<int> q){
@@ -37,12 +39,12 @@ int main()
     q.push(5);
 
     std::cout << "Original Queue: ";
-    qr.printQueue(q);
+    qr.printQueues(q);
 
     qr.reverse(q);
 
     std::cout << "Reversed Queue: ";
-    qr.printQueue(q);
+    qr.printQueues(q);
 
 }
 

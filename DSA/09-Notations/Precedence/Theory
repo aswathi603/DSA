@@ -1,0 +1,30 @@
+//2+3^5->Infix Expression
+
+//Prefix expression -> polish notation
+//Prefix expression -> <operator> <operand> <operand>
+//  ((2+3)^5)  -> ^ + 2 3 5 
+
+//PostFix expression -> <operand> <operand> <operator>
+//  ((2*4)+3)  ->  2 4 * 3 +
+//  (5-(7/2))  ->  5 7 2 / -
+
+
+//Prefix expression Evaluation->
+
+//run the string from right to left
+//Create a stack 
+//- + 7 * 4 5 + 2 0
+
+// steps
+//step1-
+//while iterating right to left
+//  if char is operand 
+//      push in stack
+//  if char is operator
+//        pop
+
+
+
+
+
+
