@@ -120,7 +120,7 @@ int main()
     // bool res = linearSearch(arr, key);
     // if (res) {
     
-    rrT!000000000000000000000000000000000000000      //     cout << "Key found!" << endl;
+ //     cout << "Key found!" << endl;
     // } else {
     //     cout << "Key not found!" << endl;
     // }

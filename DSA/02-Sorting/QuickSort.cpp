@@ -38,6 +38,6 @@ void quickSort(int arr[],int start,int end){
 }
 
 int main(){
-    int arr[5]={2,1,7,3,5}
+    int arr[5]={2,1,7,3,5};
     
 }

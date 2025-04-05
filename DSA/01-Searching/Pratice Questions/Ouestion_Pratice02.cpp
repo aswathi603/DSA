@@ -13,20 +13,21 @@
 #include <algorithm>
 using namespace std;
 
-int swap(int arr[],int size){
+void swap(int arr[],int size){
     int index=0;
 
+    //Move non-Elements to the front
     for(int i=0;i<size;i++){
         if(arr[i]!=0){
             arr[index]=arr[i];
             index++;
         }
     }
+    //Fill the rest with zeroo
     while(index<size){
         arr[index]=0;
         index++;
     }
-    
 }
 
 

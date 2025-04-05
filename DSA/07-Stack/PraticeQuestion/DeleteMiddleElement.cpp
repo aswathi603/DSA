@@ -1,5 +1,5 @@
 #include <bits/stdc++.h> 
-#include<stack>
+//#include<stack>
 using namespace std;
 
 void deleteFormStack(stack<int>&inputStack,int count,int size){
@@ -21,6 +21,8 @@ void deleteMiddle(stack<int>&inputStack, int N){
 	
    // Write your code here
    int count=0;
+   
    deleteFormStack(inputStack,count,N);
+
    
 }
